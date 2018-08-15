@@ -6,6 +6,8 @@ import operations as op
 from astropy.io import fits
 import glob
 
+# Thanks to Sebastien Vicens for providing the model data for this example
+
 # In this example, a fits file is provided containing a model intensity map,
 # a model velocity map, and the resulting mock spectrum.
 # The idea is to create the mock spectrum with PFS_spectra to compare the
