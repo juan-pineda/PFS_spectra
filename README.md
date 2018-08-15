@@ -37,12 +37,14 @@ which will have those values as their attributes. Each object correspond to
 one of the blocks described before, as identified by the names of the classes
 and of the objects themselves:
 
-```geom    = GeometryObj()
+```
+geom    = GeometryObj()
 geom.parse_input(ConfigFile)
 models  = ModelsObj()
 models.parse_input(ConfigFile)
 instr   = InstrumentObj()
-instr.parse_input(ConfigFile)```
+instr.parse_input(ConfigFile)
+```
 
 For instance, across the code the geometrical parameters can be invoked at
 any time through calls of the instances `geom.incl`, `geom.pa`, `geom.z`, etc. To get
