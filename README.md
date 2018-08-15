@@ -88,18 +88,24 @@ wherever you are working. This can be achieved en either of 3 ways:
 2. by adding the location of the repository to the `sys.path` variable at the
    beginning of your script with:
 
-```import sys
-sys.path.append("path_to_PFS_files")```
+```
+import sys
+sys.path.append("path_to_PFS_files")
+```
 
 3. By adding the location of the repository permanently to your `PYTHONPATH`
    variable, adding at your **.bashrc** file something like:
 
-```export PYTHONPATH="${PYTHONPATH}:/home/juan/Desktop/PFS_spectra/"```
+```
+export PYTHONPATH="${PYTHONPATH}:/home/juan/Desktop/PFS_spectra/"
+```
 
 Then you can import the necessary modules, doing for example:
 
-```import read_params as rp
-import operations as op```
+```
+import read_params as rp
+import operations as op
+```
 
 
 
